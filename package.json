@@ -1,4 +1,5 @@
 {
+  "homepage": "http://devynqualls.github.io/teslahome",
   "name": "teslahome",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +43,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "gh-pages": "^3.2.3"
   }
 }
