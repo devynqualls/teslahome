@@ -9,24 +9,13 @@ import Model3 from './assets/Desktop-Model3.jpeg'
 import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
-
+import Roadster from './assets/Roadster.jpeg'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="app__itemsContainer">
-        <Item
-        title="Lowest Cost Solar Panels in America"
-        desc="Money back guarantee"
-        descLink=""
-        backgroundImg={SolarPanels}
-        leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
-        rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
-        twoButtons="true"
-        />
         <Item
         title="Model S"
         desc="Plaid"
@@ -72,6 +61,18 @@ function App() {
         twoButtons="true"
         />
         <Item
+        title="Roadster"
+        desc="Fastest Car in the world"
+        descLink=""
+        backgroundImg={Roadster}
+        leftBtnTxt="CUSTOM ORDER"
+        leftBtnLink=""
+        rightBtnTxt="LEARN MORE"
+        rightBtnLink=""
+        twoButtons="true"
+        />
+        
+        <Item
         title="Lowest Cost Solar Panels in America"
         desc="Money back guarantee"
         descLink=""
@@ -81,6 +82,16 @@ function App() {
         rightBtnTxt="LEARN MORE"
         rightBtnLink=""
         twoButtons="true"
+        />
+        <Item 
+        title="Solar Roof"
+        desc="Produce Clean Energy From Your Roof"
+        descLink=""
+        backgroundImg={SolarRoof}
+        leftBtnTxt="ORDER NOW"
+        leftBtnLink=""
+        rightBtnTxt="LEARN MORE"
+        rightBtnLink=""
         />
       
       </div>

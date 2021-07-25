@@ -2,16 +2,15 @@ import React from 'react'
 import Button from './Button'
 import './Item.css'
 
-//import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-function Item({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnLink, rightBtnTxt, twoButtons, first}){
+function Item({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnLink, rightBtnTxt, twoButtons, first, button}){
     return(
         <div className="item" 
         style={{ backgroundImage: `url(${backgroundImg})`
 
         }}>
         <div className="item__container">
-            <div className="Item__text">
+            <div className="item__text">
                 <p>{title}</p>
                 <div className="item__textDesc">
                     <p>{desc}</p>
@@ -23,15 +22,9 @@ function Item({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnLink
                     text={leftBtnLink} 
                     link={leftBtnLink}
                     />
-                    {twoButtons && (
-                        <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
-                    )}
                 </div>
-                {first && (
-                    <div className="item__expand">
-                       
-                    </div>
-                )}
+                <button className="button" >Order Now</button>
+
             </div>
         </div>
 
