@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teslahome/static/css/main.a881fceb.chunk.css",
-    "main.js": "/teslahome/static/js/main.c5efe048.chunk.js",
-    "main.js.map": "/teslahome/static/js/main.c5efe048.chunk.js.map",
+    "main.js": "/teslahome/static/js/main.79b99e25.chunk.js",
+    "main.js.map": "/teslahome/static/js/main.79b99e25.chunk.js.map",
     "runtime-main.js": "/teslahome/static/js/runtime-main.89b9ed5e.js",
     "runtime-main.js.map": "/teslahome/static/js/runtime-main.89b9ed5e.js.map",
     "static/js/2.7570df59.chunk.js": "/teslahome/static/js/2.7570df59.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/Desktop-SolarPanels.d7d441d7.jpeg": "/teslahome/static/media/Desktop-SolarPanels.d7d441d7.jpeg",
     "static/media/Desktop-SolarRoof.9eb2e602.jpeg": "/teslahome/static/media/Desktop-SolarRoof.9eb2e602.jpeg",
     "static/media/Roadster.c055a50d.jpeg": "/teslahome/static/media/Roadster.c055a50d.jpeg",
+    "static/media/cybertruck.65b004e9.jpeg": "/teslahome/static/media/cybertruck.65b004e9.jpeg",
     "static/media/index.css": "/teslahome/static/media/iCiel-Medium.b23bb62d.ttf",
     "static/media/teslaLogoSmall.a7b59bc6.svg": "/teslahome/static/media/teslaLogoSmall.a7b59bc6.svg"
   },
@@ -25,6 +26,6 @@
     "static/js/runtime-main.89b9ed5e.js",
     "static/js/2.7570df59.chunk.js",
     "static/css/main.a881fceb.chunk.css",
-    "static/js/main.c5efe048.chunk.js"
+    "static/js/main.79b99e25.chunk.js"
   ]
 }
