@@ -10,7 +10,7 @@ import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import Roadster from './assets/Roadster.jpeg'
-
+import Cybertruck from './assets/cybertruck.jpeg'
 function App() {
   return (
     <div className="App">
@@ -71,6 +71,17 @@ function App() {
         rightBtnLink=""
         twoButtons="true"
         />
+        <Item
+        title="CyberTruck"
+        desc="Bigger, Faster, Better"
+        descLink=""
+        backgroundImg={Cybertruck}
+        leftBtnTxt="CUSTOM ORDER"
+        leftBtnLink=""
+        rightBtnTxt="LEARN MORE"
+        rightBtnLink=""
+        twoButtons="true"
+        />
         
         <Item
         title="Lowest Cost Solar Panels in America"
@@ -88,6 +99,16 @@ function App() {
         desc="Produce Clean Energy From Your Roof"
         descLink=""
         backgroundImg={SolarRoof}
+        leftBtnTxt="ORDER NOW"
+        leftBtnLink=""
+        rightBtnTxt="LEARN MORE"
+        rightBtnLink=""
+        />
+         <Item 
+        title="Accessories"
+        desc=""
+        descLink=""
+        backgroundImg={Accessories}
         leftBtnTxt="ORDER NOW"
         leftBtnLink=""
         rightBtnTxt="LEARN MORE"
